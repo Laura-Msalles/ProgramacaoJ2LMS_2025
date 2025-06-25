@@ -5,6 +5,6 @@ function inserirNome () {
 
 function mudarCor(){
     const elemento = document.getElementById("nome-usuário"); 
-    elemento.style.color = "red"; 
+    elemento.style.color = "red";
+    mudarCor();
 } 
-mudarCor();
